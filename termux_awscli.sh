@@ -11,7 +11,7 @@ if [ -d "/data/data/com.termux/files/usr/lib/aws" ]; then
 fi
 
 # Download the AWS CLI version 2 bundle for ARM architecture
-curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
+curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscliv2.zip"
 
 # Unzip the bundle
 unzip awscliv2.zip
