@@ -8,7 +8,4 @@ This script installs AWS CLI version 2 on Termux running on Android.
 
 ## Installation
 
-1. Clone this repository or download the script directly.
-
-2. Make the script executable:
-    
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/SKGHD/termux_awscli/refs/heads/master/termux_awscli.sh)"```
