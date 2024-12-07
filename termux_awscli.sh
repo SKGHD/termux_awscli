@@ -5,7 +5,7 @@ pkg update && pkg upgrade -y
 pkg install -y curl tar gzip
 
 # Download the AWS CLI version 2 bundle for ARM architecture
-curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64-2.2.47.zip" -o "awscliv2.zip"
+curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
 
 # Unzip the bundle
 unzip awscliv2.zip
